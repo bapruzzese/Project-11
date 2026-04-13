@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Library</title>
+  </head>
+
+  <body style="background-color: lab(100% 0.01 -0.01); font-family: Arial">
+    <!-- HEADER -->
+    <header>
+      <h1 style="color: rgb(2, 2, 223); text-align: center; font-size: 40px">
+        Apruzzese Library
+      </h1>
+    </header>
+
+    <!-- NAV -->
+    <nav style="text-align: center; margin-bottom: 20px">
+      <a href="#books" style="margin: 10px">Books</a>
+      <a href="#authors" style="margin: 10px">Authors</a>
+      <a href="#contact" style="margin: 10px">Contact</a>
+    </nav>
+
+    <!-- BOOKS -->
+    <section id="books">
+      <h2 style="color: rgb(242, 82, 157)">Books</h2>
+
+      <!-- Book 1 -->
+      <div>
+        <h2>Solo Leveling: The Novel Omnibus</h2>
+        <img
+          src="Photos/Solo-Leveling-The-Novel-Omnibus-(novel)-(Hardcover--2025).jpg"
+          width="150"
+          style="border-radius: 10px"
+        />
+        <p>
+          An action-packed fantasy novel following a weak hunter who becomes the
+          strongest.
+        </p>
+        <p>Author: <a href="#authors">Chugong</a></p>
+      </div>
+
+      <!-- Book 2 -->
+      <div>
+        <h2>Feed</h2>
+        <img src="Photos/feed.jpeg" width="150" style="border-radius: 10px" />
+        <p>
+          A dystopian story about mind control, technology, and rebellion in a
+          futuristic society.
+        </p>
+        <p>Author: <a href="#authors">M. T. Anderson</a></p>
+      </div>
+
+      <!-- Book 3 -->
+      <div>
+        <h2>Howl's Moving Castle (Collector’s Deluxe Edition)</h2>
+        <img src="Photos/Howls.jpg" width="150" style="border-radius: 10px" />
+        <p>
+          A magical fantasy adventure about a young woman cursed into old age
+          and a wizard named Howl.
+        </p>
+        <p>Author: <a href="#authors">Diana Wynne Jones</a></p>
+      </div>
+    </section>
+
+    <!-- AUTHORS -->
+    <section id="authors">
+      <h2 style="color: rgb(128, 0, 58)">Authors</h2>
+
+      <div>
+        <h3>Chugong</h3>
+        <p>Author of the popular Solo Leveling series.</p>
+      </div>
+
+      <div>
+        <h3>M. T. Anderson</h3>
+        <img
+          src="Photos/M.T. Anderson.jpeg"
+          width="150"
+          style="border-radius: 50%"
+        />
+        <p>Known for dystopian and young adult fiction.</p>
+      </div>
+
+      <div>
+        <h3>Diana Wynne Jones</h3>
+        <img src="Photos/Diana.jpeg" width="150" style="border-radius: 50%" />
+        <p>Famous fantasy author best known for Howl’s Moving Castle.</p>
+      </div>
+    </section>
+
+    <!-- TABLE -->
+    <section>
+      <h2 style="color: red">Library Book List</h2>
+
+      <table
+        border="1"
+        style="width: 100%; text-align: center; background-color: white"
+      >
+        <tr style="background-color: lightgray">
+          <th>Title</th>
+          <th>Author</th>
+          <th>Year</th>
+          <th>Genre</th>
+          <th>Available</th>
+        </tr>
+
+        <tr>
+          <td>Solo Leveling</td>
+          <td>Chugong</td>
+          <td>2025</td>
+          <td>Fantasy</td>
+          <td>Yes</td>
+        </tr>
+
+        <tr>
+          <td>Feed</td>
+          <td>M. T. Anderson</td>
+          <td>2002</td>
+          <td>Dystopian</td>
+          <td>No</td>
+        </tr>
+
+        <tr>
+          <td>Howl's Moving Castle</td>
+          <td>Diana Wynne Jones</td>
+          <td>2025</td>
+          <td>Fantasy</td>
+          <td>Yes</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- FORM -->
+    <section id="contact">
+      <h2 style="color: orange">Request a Book</h2>
+
+      <form>
+        <input type="text" placeholder="First Name" /><br />
+        <input type="text" placeholder="Last Name" /><br />
+        <input type="email" placeholder="Email" /><br />
+        <textarea placeholder="Book Request"></textarea><br />
+        <button type="submit" style="background-color: green; color: white">
+          Submit
+        </button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer style="text-align: center">
+      <p>&copy; 2026 Apruzzese Library | Contact: info@Apruzzeselibrary.com</p>
+    </footer>
+  </body>
+</html>
